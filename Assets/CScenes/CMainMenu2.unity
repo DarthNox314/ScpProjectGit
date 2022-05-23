@@ -594,7 +594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: placeholder
+  m_Text: Lost SIte
 --- !u!222 &641866727
 CanvasRenderer:
   m_ObjectHideFlags: 0
