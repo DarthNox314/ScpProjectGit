@@ -1,9 +1,9 @@
 <UserInputs scheme="Keyboard">
   <Action name="Movement" type="1">
     <Binding>
-      <Up key="kb.W" />
+      <Up key="kb.A" />
       <Down key="kb.S" />
-      <Left key="kb.A" />
+      <Left key="kb.None" />
       <Right key="kb.D" />
     </Binding>
   </Action>
