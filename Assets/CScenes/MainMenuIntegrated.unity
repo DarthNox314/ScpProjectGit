@@ -32432,7 +32432,7 @@ MonoBehaviour:
   SelectFirstSave: 1
   isMainMenu: 1
   setStartNewGame: 1
-  NewGameBuildName: Lab
+  NewGameBuildName: Laboratory
   ContinueButton: {fileID: 877931251046421134}
   NewGameButton: {fileID: 877931249914807215}
 --- !u!114 &6567529606501003154
