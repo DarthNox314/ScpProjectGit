@@ -8050,11 +8050,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 479698, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.22742127
+      value: 0.49917307
       objectReference: {fileID: 0}
     - target: {fileID: 479698, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9737965
+      value: 0.86650234
       objectReference: {fileID: 0}
     - target: {fileID: 1000012403732442, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_Name
@@ -8062,19 +8062,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011083731930, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6283675
+      value: 0.96624243
       objectReference: {fileID: 0}
     - target: {fileID: 4000011083731930, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7779167
+      value: -0.25763446
       objectReference: {fileID: 0}
     - target: {fileID: 4000011217956952, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.90042526
+      value: 0.25905538
       objectReference: {fileID: 0}
     - target: {fileID: 4000011217956952, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.4350109
+      value: -0.96586245
       objectReference: {fileID: 0}
     - target: {fileID: 4000012645272936, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_RootOrder
@@ -8134,19 +8134,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012807142650, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.2188577
+      value: -0.7076243
       objectReference: {fileID: 0}
     - target: {fileID: 4000012807142650, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9757568
+      value: 0.70658886
       objectReference: {fileID: 0}
     - target: {fileID: 4000014048724882, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.62152535
+      value: -0.8657844
       objectReference: {fileID: 0}
     - target: {fileID: 4000014048724882, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7833941
+      value: -0.5004173
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f07975ca2a94f34ab6fa7ea5938f0c9, type: 3}
@@ -8540,6 +8540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crate
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 635697846dbb0f94aa38cb7fa0264d20,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635697846dbb0f94aa38cb7fa0264d20, type: 3}
@@ -12290,7 +12295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9977f91cd232b41a55f03760833051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInCollision: 0
+  isInCollision: 1
   dragDistance: 2
   dragAndUse: 0
   automaticDistance: 1
@@ -12929,6 +12934,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 635697846dbb0f94aa38cb7fa0264d20,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 635697846dbb0f94aa38cb7fa0264d20, type: 3}
@@ -19174,7 +19184,7 @@ GameObject:
   - component: {fileID: 2048753045}
   - component: {fileID: 2048753044}
   - component: {fileID: 2048753043}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19207,11 +19217,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9977f91cd232b41a55f03760833051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isInCollision: 0
+  isInCollision: 1
   dragDistance: 2
   dragAndUse: 0
   automaticDistance: 1
-  soundType: 0
+  soundType: 2
   dragSound: {fileID: 0}
   dragVolume: 1
   enableWaterBuoyancy: 1
