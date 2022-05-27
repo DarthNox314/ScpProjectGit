@@ -12,7 +12,9 @@ GameObject:
   - component: {fileID: 1531546181428160309}
   - component: {fileID: 3301396159749490768}
   - component: {fileID: 5206521639140940266}
-  m_Layer: 0
+  - component: {fileID: 4292982123589337694}
+  - component: {fileID: 7566632403903832480}
+  m_Layer: 9
   m_Name: scp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,3 +97,64 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4292982123589337694
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620899627965292782}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7566632403903832480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7620899627965292782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fcb51f6d678d2498af4fb5f59a2c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemType: 0
+  examineType: 1
+  examineRotate: 3
+  messageType: 0
+  disableType: 0
+  MessageTips: []
+  weaponID: 0
+  inventoryID: 0
+  backpackExpandAmount: 0
+  examineName: SCP-049
+  itemMessage: 
+  paperMessage: 
+  pickupAmount: 1
+  messageShowTime: 3
+  examineDistance: 0.5
+  paperMessageSize: 15
+  pickupSwitch: 0
+  examineCollect: 0
+  enableCursor: 0
+  showItemName: 0
+  autoShortcut: 0
+  floatingIconEnabled: 1
+  faceToCamera: 0
+  faceRotation: {x: 0, y: 0, z: 0}
+  itemHashtables: []
+  CollidersDisable: []
+  CollidersEnable: []
+  pickupSound: {fileID: 0}
+  pickupVolume: 1
+  examineSound: {fileID: 0}
+  examineVolume: 1
+  isExamined: 0
+  lastFloorPosition: {x: 0, y: 0, z: 0}
