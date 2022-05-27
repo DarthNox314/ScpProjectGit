@@ -445,10 +445,13 @@ public class VCRPlayer : MonoBehaviour, IItemSelect, ISaveable, IPauseEvent
 
         Anim.Play(EjectAnim);
 
+        Destroy(this);
+
         if (EjectSound)
         {
             VCRAudio.clip = EjectSound;
             VCRAudio.Play();
+            
         }
 
         yield return new WaitUntil(() => !Anim.isPlaying);
