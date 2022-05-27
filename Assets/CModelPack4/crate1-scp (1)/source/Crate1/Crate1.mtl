@@ -1,0 +1,14 @@
+newmtl Crate11Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.4 0.4 0.4 
+
+d 1
+
+Ns 9
+
+map_Ka Crate11Tex.png
+map_Kd Crate11Tex.png
+map_d Crate11Tex.png
+
