@@ -1,0 +1,93 @@
+{
+  "scene": "Laboratory",
+  "dateTime": "2022-05-27 22:33:03",
+  "playerData": {
+    "playerPosition": {
+      "x": 22.958065,
+      "y": 62.4263,
+      "z": -109.117989
+    },
+    "cameraRotation": {
+      "x": 142.998657,
+      "y": -7.59997368
+    },
+    "characterState": 0,
+    "playerHealth": 45.31499
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": 4,
+    "switcherWeaponItem": 4,
+    "switcher_item_flashlight": {
+      "FlashlightItem": {
+        "batteryPercentage": 100.0
+      }
+    },
+    "switcher_item_lantern": {
+      "LanternItem": {
+        "lightPercentage": 100.0,
+        "lightIntensity": 1.0,
+        "flameAlpha": 0.0
+      }
+    },
+    "switcher_item_candle": {
+      "CandleItem": {
+        "candleScale": 0.00113
+      }
+    },
+    "switcher_item_glock18": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 10,
+    "slotsData": {
+      "inv_slot_0": {
+        "slotID": 0,
+        "itemID": 30,
+        "itemAmount": 1,
+        "itemData": {
+          "dataDictionary": {
+            "object_path": "IA_Axe",
+            "object_scene": "Laboratory"
+          },
+          "canUse": true,
+          "canCombine": true
+        }
+      },
+      "inv_slot_1": {
+        "slotID": 1,
+        "itemID": 11,
+        "itemAmount": 1,
+        "itemData": {
+          "dataDictionary": {
+            "object_path": "IH_BloodBag(Clone)[0]",
+            "object_scene": "Laboratory"
+          },
+          "canUse": true,
+          "canCombine": true
+        }
+      },
+      "inv_slot_2": "null",
+      "inv_slot_3": "null",
+      "inv_slot_4": "null",
+      "inv_slot_5": "null",
+      "inv_slot_6": "null",
+      "inv_slot_7": "null",
+      "inv_slot_8": "null",
+      "inv_slot_9": "null"
+    },
+    "shortcutsData": {
+      "shortcut_0": {
+        "itemID": 30,
+        "shortcutKey": "Digit1"
+      }
+    }
+  },
+  "objectivesData": {
+    "activeObjectives": {},
+    "touchedObjectives": {}
+  }
+}
