@@ -39,6 +39,12 @@ public class JumpscareTrigger : MonoBehaviour {
 	public Vector3 PositionInfluence = new Vector3(0.15f, 0.15f, 0f);
 	public Vector3 RotationInfluence = Vector3.one;
 
+	[Header("DestroyTheTrigger")]
+	public float destroyTime = 20f;
+	private float startDestroy = 0;
+	private float timer = 0;
+
+
 	[SaveableField, HideInInspector]
 	public bool isPlayed;
 
@@ -51,12 +57,24 @@ public class JumpscareTrigger : MonoBehaviour {
 	{
 		isPlayed = state;
 	}
+	void Update()
+    {
+		if (startDestroy == 1)
+		{
+			timer += Time.deltaTime;
+			if (timer == destroyTime)
+			{
+				Destroy(this);
+			}
+		}
+    }
 
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Player" && !isPlayed)
 		{
 			AnimationObject.Play();
+			startDestroy = 1;
 
 			if (JumpscareSound)
 			{
