@@ -90,7 +90,7 @@ public class LanternItem : SwitcherBehaviour, ISaveableArmsItem {
         }
 
         defaultOilPercentagle = oilPercentage;
-        fullIntnesity = LanternLight.intensity;
+        fullIntnesity = LanternLight.intensity * 100;
         oldIntensity = LanternLight.intensity;
         reduceIntensity = LanternLight.intensity;
         FlameTint = LanternLight.transform.GetChild(0).GetComponent<MeshRenderer>().material.GetColor(ColorString);
