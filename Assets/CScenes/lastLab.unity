@@ -51629,6 +51629,7 @@ GameObject:
   - component: {fileID: 8414852806547545277}
   - component: {fileID: 8448056654041095930}
   - component: {fileID: 3062818538018519528}
+  - component: {fileID: 6947973091112068358}
   m_Layer: 0
   m_Name: props_med_stairs_04_
   m_TagString: Untagged
@@ -51636,6 +51637,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!64 &6947973091112068358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6947973091112068357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8077927563530278057, guid: d43acd637a55ed7478103fe0755edfe4, type: 3}
 --- !u!1 &6949308742738453017
 GameObject:
   m_ObjectHideFlags: 0
