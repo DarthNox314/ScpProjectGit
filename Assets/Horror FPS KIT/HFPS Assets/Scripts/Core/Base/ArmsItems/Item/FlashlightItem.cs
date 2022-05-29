@@ -200,6 +200,8 @@ public class FlashlightItem : SwitcherBehaviour, ISaveableArmsItem
         if (isOn)
         {
             LightObject.enabled = true;
+            
+            
 
             if (!InfiniteBattery)
             {
