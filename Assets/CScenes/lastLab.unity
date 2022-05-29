@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -796,7 +796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &980040746
 Light:
   m_ObjectHideFlags: 0
@@ -1079,7 +1079,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 4e979c97171f68941b7c2892496698c7, type: 2}
     - target: {fileID: -8592675609336806851, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1384,7 +1384,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 98e1357e9a6629f44832a5f972c6f9ad, type: 2}
     - target: {fileID: -7000989319151152692, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1560,7 +1560,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 64d944b26a15aeb44aecd3e146d521a8, type: 2}
     - target: {fileID: -6028184052988131203, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2911,7 +2911,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 36fac7de27d75964fb45a8b19fa24f5a, type: 2}
     - target: {fileID: 1200842935172048906, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3546,7 +3546,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 64d944b26a15aeb44aecd3e146d521a8, type: 2}
     - target: {fileID: 5922780486605253575, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3686,7 +3686,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2f1285ef6e34ffe49b704adf67379944, type: 2}
+      objectReference: {fileID: 2100000, guid: 98e1357e9a6629f44832a5f972c6f9ad, type: 2}
     - target: {fileID: 6909945880437395094, guid: d43acd637a55ed7478103fe0755edfe4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
