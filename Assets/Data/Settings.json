@@ -10,10 +10,10 @@
       "mouse_sensitivity": "2"
     },
     "graphic": {
-      "game_shadowquality": "3",
-      "game_resolution": "0",
+      "game_shadowquality": "0",
+      "game_resolution": "1",
       "game_vsync": "True",
-      "game_texquality": "3",
+      "game_texquality": "0",
       "game_shadowdist": "150",
       "game_fullscreen": "2",
       "game_antialising": "1"
