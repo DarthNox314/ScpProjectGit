@@ -219,83 +219,83 @@ public class FlashlightItem : SwitcherBehaviour, ISaveableArmsItem
         {
             if (batteryPercentage > 95.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 1, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 350f, Time.deltaTime);
             }
             else if (batteryPercentage <= 95.0f && batteryPercentage > 90.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.95f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 330f, Time.deltaTime);
             }
             else if (batteryPercentage <= 90.0f && batteryPercentage > 85.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.9f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 300f, Time.deltaTime);
             }
             else if (batteryPercentage <= 85.0f && batteryPercentage > 80.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.85f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 290f, Time.deltaTime);
             }
             else if (batteryPercentage <= 80.0f && batteryPercentage > 75.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.8f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 280f, Time.deltaTime);
             }
             else if (batteryPercentage <= 75.0f && batteryPercentage > 70.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.75f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 280f, Time.deltaTime);
             }
             else if (batteryPercentage <= 70.0f && batteryPercentage > 65.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.7f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 280f, Time.deltaTime);
             }
             else if (batteryPercentage <= 65.0f && batteryPercentage > 60.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.65f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 270f, Time.deltaTime);
             }
             else if (batteryPercentage <= 60.0f && batteryPercentage > 55.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.6f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 260f, Time.deltaTime);
             }
             else if (batteryPercentage <= 55.0f && batteryPercentage > 50.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.55f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 250f, Time.deltaTime);
             }
             else if (batteryPercentage <= 50.0f && batteryPercentage > 45.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.5f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 250f, Time.deltaTime);
             }
             else if (batteryPercentage <= 45.0f && batteryPercentage > 40.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.45f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 250f, Time.deltaTime);
             }
             else if (batteryPercentage <= 40.0f && batteryPercentage > 35.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.4f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 250f, Time.deltaTime);
             }
             else if (batteryPercentage <= 35.0f && batteryPercentage > 30.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.35f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 250f, Time.deltaTime);
             }
             else if (batteryPercentage <= 30.0f && batteryPercentage > 25.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.3f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 25.0f && batteryPercentage > 20.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.25f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 20.0f && batteryPercentage > 15.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.2f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 15.0f && batteryPercentage > 10.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.15f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 10.0f && batteryPercentage > 5.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.1f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 5.0f && batteryPercentage > 1.0f)
             {
-                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 0.05f, Time.deltaTime);
+                LightObject.intensity = Mathf.Lerp(LightObject.intensity, 200f, Time.deltaTime);
             }
             else if (batteryPercentage <= 1.0f)
             {
