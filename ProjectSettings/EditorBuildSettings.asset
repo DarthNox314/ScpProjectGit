@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/CScenes/MainMenuIntegrated.unity
+    guid: 5b84feda9a372a148881ab6426de674d
+  - enabled: 0
     path: Assets/Horror FPS KIT/HFPS Assets/Scenes/MainMenu.unity
     guid: 9aa959960fff2014d9064643094534f3
   - enabled: 1
